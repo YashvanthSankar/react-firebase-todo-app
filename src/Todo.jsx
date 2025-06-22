@@ -4,7 +4,7 @@ import { FaRegTrashAlt, FaThumbtack } from 'react-icons/fa'
 const style = {
   li: 'flex justify-between bg-red-500 p-4 my-2 border border-white/30 p-4 rounded-lg',
   row: 'flex items-center gap-4',
-  input: 'h-6 w-6 rounded border border-red-800 cursor-pointer accent-red-500',
+  input: 'h-6 w-6 rounded border border-red-800 cursor-pointer accent-[#FFD700] transition-colors duration-200',
   text: 'text-lg font-semibold cursor-pointer select-none pointer-events-none',
   textDone: 'text-lg font-semibold line-through text-gray-800 cursor-pointer select-none pointer-events-none',
   btns: 'flex items-center gap-2',
