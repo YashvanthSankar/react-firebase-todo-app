@@ -106,20 +106,26 @@ npm run dev
 ```
 
 The app will run locally at:  
-👉 http://localhost:5173 
+👉 http://localhost:5173
+
+---
+
+Screenshot
+
+![alt text](ss.png)
 
 ---
 
 🐞 Found a Bug or Issue?  
 Please report it here: GitHub Issues  
-or fill this Google Form (replace with your actual link)  
+or fill this Google Form (replace with your actual link)
 
-🙌 Your feedback helps improve the app!  
+🙌 Your feedback helps improve the app!
 
 👨‍💻 Author  
 Yashvanth S  
 📎 [LinkedIn](https://www.linkedin.com/in/yashvanths/)  
-🔒 Gmail is kept private. Please contact through LinkedIn or the feedback form.  
+🔒 Gmail is kept private. Please contact through LinkedIn or the feedback form.
 
 ---
 
@@ -127,8 +133,8 @@ Yashvanth S
 If you found this app useful:  
 -⭐ Star the repo  
 -📤 Share with friends  
--💬 Feel free to contribute  
+-💬 Feel free to contribute
 
 ---
 
-Made with 💖 by Yashvanth S  
+Made with 💖 by Yashvanth S
