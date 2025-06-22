@@ -24,9 +24,9 @@ const style = {
   logoutBtn: 'bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition duration-200 shadow-lg border border-white/30',
   googleicon: 'w-6 h-6 mr-2',
   loggedInStyle: 'w-full flex flex-col sm:flex-row justify-between items-center gap-2 px-4 py-3 bg-white/20 backdrop-blur-md rounded-lg border border-white/30 shadow-md mt-4 max-w-md mx-4',
-  logoWrapper: 'w-full max-w-md flex items-center justify-start p-4',
+  logoWrapper: 'w-full max-w-md flex items-center justify-center p-4',
   logo: 'h-10 w-auto',
-  logoname: 'text-2xl font-bold text-black ml-2 select-none pointer-events-none',
+  logoname: 'text-2xl font-bold text-black select-none pointer-events-none',
   quote: 'text-center text-md italic text-gray-800 max-w-md mx-auto select-none pointer-events-none',
   copyright: 'text-sm text-gray-600 mt-4 select-none pointer-events-none',
 };
@@ -154,7 +154,7 @@ function App() {
       </div>
 
       <div className={style.container}>
-        <h3 className={style.heading}>Todo List</h3>
+        <h3 className={style.heading}>Your Todo List</h3>
         <div className={style.filter}>
           <select value={filter} onChange={(e) => setFilter(e.target.value)} className={style.options}>
             <option value="all">All</option>
