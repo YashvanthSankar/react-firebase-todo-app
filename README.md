@@ -118,7 +118,7 @@ Screenshot
 
 🐞 Found a Bug or Issue?  
 Please report it here: GitHub Issues  
-or fill this Google Form (replace with your actual link)
+or fill this [Google Form](https://forms.gle/UJGtM3Z9v9gCyVgMA)
 
 🙌 Your feedback helps improve the app!
 
