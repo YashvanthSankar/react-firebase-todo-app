@@ -8,7 +8,7 @@ import { signInWithPopup, signOut } from 'firebase/auth';
 
 const style = {
   bg: 'min-h-screen flex flex-col items-center justify-around bg-gradient-to-r from-[#e1eec3] to-[#f05053]',
-  container: 'mt-6 p-6 rounded-lg shadow-xl w-full max-w-md backdrop-blur-md bg-white/20 border border-white/30',
+  container: 'mt-6 mx-4 p-6 rounded-lg shadow-xl w-full max-w-md backdrop-blur-md bg-white/20 border border-white/30',
   heading: 'text-3xl font-bold text-center mb-4 select-none pointer-events-none',
   form: 'flex justify-between mb-2 gap-2',
   input: 'flex-grow border h-12 border-gray-300 p-2 rounded mb-4 bg-red-100 w-full focus:outline-none focus:border-red-500 transition-colors duration-200',
@@ -19,7 +19,7 @@ const style = {
   filter: 'flex items-center justify-between mb-6',
   options: 'w-full bg-red-100 text-black border border-red-300 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-400 focus:border-transparent transition-colors duration-200',
   displayName: ' text-lg font-semibold text-center select-none pointer-events-none',
-  loginBox: 'w-full flex justify-center mt-4 mb-2',
+  loginBox: 'w-full flex justify-center mt-4 mb-2 mx-4',
   loginBtn: 'flex items-center justify-center bg-white text-black p-3 rounded-lg hover:bg-red-600 transition duration-200 shadow-lg border border-white/30',
   logoutBtn: 'bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition duration-200 shadow-lg border border-white/30',
   googleicon: 'w-6 h-6 mr-2',
