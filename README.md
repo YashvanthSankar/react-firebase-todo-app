@@ -131,4 +131,4 @@ If you found this app useful:
 
 ---
 
-Made with 💖 by Yashvanth  
+Made with 💖 by Yashvanth S  
