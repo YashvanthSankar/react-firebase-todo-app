@@ -1,4 +1,4 @@
-import { FaRegTrashAlt, FaThumbtack } from 'react-icons/fa'
+import { FaRegTrashAlt, FaThumbtack } from 'react-icons/fa'    
 
 
 const style = {
@@ -13,6 +13,7 @@ const style = {
 }
 
 const Todo = ({todo, toggleComplete, deleteTodo, togglePin}) => {
+
   return (
     <li className={style.li}>
         <div className={style.row}>
