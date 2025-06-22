@@ -105,30 +105,30 @@ service cloud.firestore {
 npm run dev
 ```
 
-The app will run locally at:
-👉 http://localhost:5173
+The app will run locally at:  
+👉 http://localhost:5173 
 
 ---
 
-🐞 Found a Bug or Issue?
-Please report it here: GitHub Issues
-or fill this Google Form (replace with your actual link)
+🐞 Found a Bug or Issue?  
+Please report it here: GitHub Issues  
+or fill this Google Form (replace with your actual link)  
 
-🙌 Your feedback helps improve the app!
+🙌 Your feedback helps improve the app!  
 
-👨‍💻 Author
-Yashvanth S
-📎 [LinkedIn](https://www.linkedin.com/in/yashvanths/)
-🔒 Gmail is kept private. Please contact through LinkedIn or the feedback form.
-
----
-
-🌟 Show Some Love
-If you found this app useful:
--⭐ Star the repo
--📤 Share with friends
--💬 Feel free to contribute
+👨‍💻 Author  
+Yashvanth S  
+📎 [LinkedIn](https://www.linkedin.com/in/yashvanths/)  
+🔒 Gmail is kept private. Please contact through LinkedIn or the feedback form.  
 
 ---
 
-Made with 💖 by Yashvanth
+🌟 Show Some Love  
+If you found this app useful:  
+-⭐ Star the repo  
+-📤 Share with friends  
+-💬 Feel free to contribute  
+
+---
+
+Made with 💖 by Yashvanth  
