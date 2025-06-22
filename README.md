@@ -3,7 +3,6 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase)
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css)
-![Made With Love](https://img.shields.io/badge/Made%20with-%F0%9F%92%95-red?style=for-the-badge)
 
 A clean, modern, and fully-featured **Todo App** built with **React** and **Firebase**.  
 Features real-time updates, filtering, pinning, and Google authentication — all styled beautifully with TailwindCSS.
