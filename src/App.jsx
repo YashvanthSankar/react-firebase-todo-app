@@ -4,6 +4,7 @@ import { collection, query, onSnapshot, updateDoc, doc, addDoc, deleteDoc, serve
 import { db, auth, provider } from './firebase.js';
 import { signInWithPopup, signOut } from 'firebase/auth';
 import Todo from './Todo.jsx';
+import logo from '/logo-todolist.png';
 
 const style = {
   bg: 'min-h-screen flex flex-col items-center justify-around bg-gradient-to-r from-[#e1eec3] to-[#f05053] px-4',
@@ -23,6 +24,9 @@ const style = {
   logoutBtn: 'bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600 transition duration-200 shadow-lg border border-white/30',
   googleicon: 'w-6 h-6 mr-2',
   loggedInStyle: 'w-full flex flex-col sm:flex-row justify-between items-center gap-2 px-4 py-3 bg-white/20 backdrop-blur-md rounded-lg border border-white/30 shadow-md mt-4 max-w-md mx-4',
+  logoWrapper: 'w-full max-w-md flex items-center justify-start p-4',
+  logo: 'h-10 w-auto',
+  logoname: 'text-2xl font-bold text-black ml-2 select-none pointer-events-none',
 };
 
 function App() {
@@ -120,6 +124,11 @@ function App() {
 
   return (
     <div className={style.bg}>
+      <div className={style.logoWrapper}>
+        <img src={logo} alt="Logo" className={style.logo} />
+        <h3 className={style.logoname}>doItBro</h3>
+      </div>
+
       <div className={style.loginBox}>
         {user ? (
           <div className={style.loggedInStyle}>
