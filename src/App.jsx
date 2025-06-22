@@ -27,6 +27,8 @@ const style = {
   logoWrapper: 'w-full max-w-md flex items-center justify-start p-4',
   logo: 'h-10 w-auto',
   logoname: 'text-2xl font-bold text-black ml-2 select-none pointer-events-none',
+  quote: 'text-center text-md italic text-gray-800 max-w-md mx-auto select-none pointer-events-none',
+  copyright: 'text-sm text-gray-600 mt-4 select-none pointer-events-none',
 };
 
 function App() {
@@ -124,10 +126,18 @@ function App() {
 
   return (
     <div className={style.bg}>
+      {!user && (
+      <>
       <div className={style.logoWrapper}>
         <img src={logo} alt="Logo" className={style.logo} />
         <h3 className={style.logoname}>doItBro</h3>
       </div>
+      
+      <blockquote className={style.quote}>
+        “The bro who helps you get stuff done.”
+      </blockquote>
+      </>
+      )}
 
       <div className={style.loginBox}>
         {user ? (
@@ -183,6 +193,10 @@ function App() {
         </p>
         <p>
           Found a bug? <a className={style.a} href="https://forms.gle/UJGtM3Z9v9gCyVgMA" target="_blank" rel="noopener noreferrer">Report it here</a>
+        </p>
+
+        <p className={style.copyright}>
+          © {new Date().getFullYear()} doItBro. All rights reserved.
         </p>
       </footer>
     </div>
