@@ -19,6 +19,7 @@ Features real-time updates, filtering, pinning, and Google authentication — al
 ✅ Real-time Sync via Firebase Firestore  
 ✅ Fully Responsive UI  
 ✅ Data Privacy – Each user sees only their own tasks
+✅ Displays a random motivational tagline on each page refresh
 
 ---
 
