@@ -27,15 +27,40 @@ const style = {
   logoWrapper: 'w-full max-w-md flex items-center justify-center p-4',
   logo: 'h-10 w-auto',
   logoname: 'text-2xl font-bold text-black select-none pointer-events-none',
-  quote: 'text-center text-md italic text-gray-800 max-w-md mx-auto select-none pointer-events-none',
+  quote: 'text-center text-md italic max-w-md mx-auto select-none pointer-events-none p-4 rounded-lg mt-4 mb-6 bg-clip-text text-transparent bg-gradient-to-r from-[#0e1c26] via-[#2a454b] to-[#294861]',
   copyright: 'text-sm text-gray-600 mt-4 select-none pointer-events-none',
 };
+
+const taglines = [
+  "The bro who helps you get stuff done.",
+  "Let’s just get it done, bro.",
+  "I got you, bro.",
+  "Productivity, but chill.",
+  "Helping you adult… one task at a time.",
+  "You do your thing. I’ll keep track.",
+  "Your personal task bro.",
+  "Because adulting is hard, bro.",
+  "Your bro for all things to-do.",
+  "Helping you crush your to-do list, bro.",
+  "Your bro for getting things done.",
+  "Because even bros need to stay organized.",
+  "Your bro for a more productive life.",
+  "Helping you tackle your to-do list, bro.",
+  "Your bro for a more organized life.",
+  "Because even bros need a little help sometimes.",
+];
 
 function App() {
   const [todos, setTodos] = useState([]);
   const [input, setInput] = useState('');
   const [filter, setFilter] = useState('all');
   const [user, setUser] = useState(null);
+  const [randomTagline, setRandomTagline] = useState('');
+
+  useEffect(() => {
+    const randomIndex = Math.floor(Math.random() * taglines.length);
+    setRandomTagline(taglines[randomIndex]);
+  },[]);
 
   const createTodo = async (e) => {
     e.preventDefault();
@@ -134,7 +159,7 @@ function App() {
       </div>
       
       <blockquote className={style.quote}>
-        “The bro who helps you get stuff done.”
+        “{randomTagline}”
       </blockquote>
       </>
       )}
