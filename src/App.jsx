@@ -5,9 +5,10 @@ import { db, auth, provider } from './firebase.js';
 import { signInWithPopup, signOut } from 'firebase/auth';
 import Todo from './Todo.jsx';
 import logo from '/logo-todolist.png';
+import ParticlesBackground from './ParticlesBackground.jsx';
 
 const style = {
-  bg: 'min-h-screen flex flex-col items-center justify-around bg-gradient-to-r from-[#e1eec3] to-[#f05053] px-4',
+  bg: 'relative isolate min-h-screen flex flex-col items-center justify-around bg-gradient-to-r from-[#e1eec3] to-[#f05053] px-4',
   container: 'mt-6 p-6 rounded-lg shadow-xl w-full max-w-md backdrop-blur-md bg-white/20 border border-white/30 mx-4',
   heading: 'text-3xl font-bold text-center mb-4 select-none pointer-events-none',
   form: 'flex justify-between mb-2 gap-2',
@@ -151,6 +152,8 @@ function App() {
 
   return (
     <div className={style.bg}>
+      <ParticlesBackground />
+
       {!user && (
       <>
       <div className={style.logoWrapper}>
